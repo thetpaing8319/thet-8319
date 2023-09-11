@@ -17,11 +17,9 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
-</font></h3>
+
 <h3><font color='magenta'>Thet Paing
 </font></h3>
-
 
 <h3><font color='red'>§§§
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
