@@ -23,8 +23,8 @@ echo "
 
 <h3><font color='red'>§§§
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+useradd "Thet" --shell=/bin/false -M
+echo "Thet:Thet" | chpasswd
 
 echo ""
 
